@@ -1,20 +1,17 @@
-/* Ombré background and base styles */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
     text-align: center;
-    background: linear-gradient(to right, #f3e7e9, #e3eeff); /* soft pink to light blue ombré */
+    background: linear-gradient(to right, #f3e7e9, #e3eeff);
     min-height: 100vh;
 }
 
-/* Header */
 h1 {
-    color: #4B0082; /* Indigo */
+    color: #4B0082;
     font-size: 2.5rem;
     margin-bottom: 30px;
 }
 
-/* Book grid container */
 #library {
     display: flex;
     flex-wrap: wrap;
@@ -22,13 +19,12 @@ h1 {
     gap: 20px;
 }
 
-/* Book card */
 .book {
     border: 2px solid #ccc;
     border-radius: 10px;
     padding: 20px;
     width: 220px;
-    background: #ffffffcc; /* semi-transparent white */
+    background: #ffffffcc;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     transition: transform 0.2s ease;
 }
@@ -37,20 +33,17 @@ h1 {
     transform: translateY(-5px);
 }
 
-/* Book title */
 .book h2 {
     font-size: 20px;
     margin: 10px 0;
     color: #2c3e50;
 }
 
-/* Book author */
 .book p {
     margin: 5px 0;
     color: #555;
 }
 
-/* Buttons general */
 button {
     padding: 10px 16px;
     border: none;
@@ -61,22 +54,20 @@ button {
     transition: background 0.3s ease;
 }
 
-/* Borrow button */
 .borrow {
-    background-color: #ff7e5f; /* peach gradient tone */
+    background-color: #ff7e5f;
     color: white;
 }
 
 .borrow:hover {
-    background-color: #feb47b; /* light peach hover */
+    background-color: #feb47b;
 }
 
-/* Return button */
 .return {
-    background-color: #6a82fb; /* light purple-blue */
+    background-color: #6a82fb;
     color: white;
 }
 
 .return:hover {
-    background-color: #fc5c7d; /* soft pink-purple */
+    background-color: #fc5c7d;
 }
